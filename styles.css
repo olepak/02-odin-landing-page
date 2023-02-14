@@ -1,11 +1,14 @@
 * {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	height: 100vh;
-	padding: 16px 96px;
-	margin: auto;
+	display: flex;
+	padding: 16px 192px;
+	flex-direction: column;
 }
 
 header {
@@ -24,4 +27,17 @@ ul {
 
 a {
 	text-decoration: none;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	outline: 1px solid black; /* for debugging */
+}
+main > div {
+	outline: 1px solid black; /* for debugging */
+	flex: 1;
+}
+footer {
+	outline: 1px solid black; /* for debugging */
 }
