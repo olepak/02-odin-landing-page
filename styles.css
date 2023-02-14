@@ -15,7 +15,7 @@ body {
 }
 
 header {
-	padding: 0 96px;
+	padding: 0 144px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -64,11 +64,20 @@ footer {
 	background-color: #1f2937;
 	font-size: 18px;
 	color: #e5e7eb;
+	align-items: center;
+	justify-content: center;
 }
 
-.section1 > div {
+.section1-sub {
 	flex: 1;
+	outline: 1px solid red; /* for debugging */
+}
+.section1-card {
 	outline: 1px solid black; /* for debugging */
-	display: flex;
-	justify-content: center;
+	height: 100%;
+	background-color: rgba(0, 100, 0, 0.1); /* for debugging */
+}
+.section1-text {
+	text-align: center;
+	background-color: rgba(0, 100, 0, 0.1); /* for debugging */
 }
