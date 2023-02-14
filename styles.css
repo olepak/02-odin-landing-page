@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -9,6 +10,7 @@ body {
 	display: flex;
 	padding: 16px 192px;
 	flex-direction: column;
+	font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -16,23 +18,34 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	outline: 1px solid black; /* for debugging */
+	background-color: #1f2937;
+	color: #f9faf8;
+	font-size: 24px;
 }
 
 ul {
 	outline: 1px solid black; /* for debugging */
 	list-style: none;
 	display: flex;
-	gap: 8px;
+	gap: 24px;
 }
 
 a {
 	text-decoration: none;
+	color: #e5e7eb;
+	font-size: 18px;
 }
+
 main {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
 	outline: 1px solid black; /* for debugging */
+}
+h1 {
+	font-size: 48px;
+	font-weight: 700;
+	color: #f9faf8;
 }
 main > div {
 	outline: 1px solid black; /* for debugging */
@@ -40,4 +53,18 @@ main > div {
 }
 footer {
 	outline: 1px solid black; /* for debugging */
+}
+
+.section1 {
+	display: flex;
+	background-color: #1f2937;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.section1 > div {
+	flex: 1;
+	outline: 1px solid black; /* for debugging */
+	display: flex;
+	justify-content: center;
 }
