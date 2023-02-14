@@ -4,4 +4,24 @@
 }
 body {
 	height: 100vh;
+	padding: 16px 96px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	outline: 1px solid black; /* for debugging */
+}
+
+ul {
+	outline: 1px solid black; /* for debugging */
+	list-style: none;
+	display: flex;
+	gap: 8px;
+}
+
+a {
+	text-decoration: none;
 }
