@@ -19,14 +19,12 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	outline: 1px solid black; /* for debugging */
 	background-color: #1f2937;
 	color: #f9faf8;
 	font-size: 24px;
 }
 
 ul {
-	outline: 1px solid black; /* for debugging */
 	list-style: none;
 	display: flex;
 	gap: 24px;
@@ -42,7 +40,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	outline: 1px solid black; /* for debugging */
 }
 
 h1 {
@@ -52,32 +49,40 @@ h1 {
 }
 
 main > div {
-	outline: 1px solid black; /* for debugging */
 	flex: 1;
 }
 footer {
 	outline: 1px solid black; /* for debugging */
 }
-
 .section1 {
-	display: flex;
 	background-color: #1f2937;
-	font-size: 18px;
 	color: #e5e7eb;
-	align-items: center;
-	justify-content: center;
+	display: flex;
+	padding: 16px 144px;
 }
 
-.section1-sub {
-	flex: 1;
-	outline: 1px solid red; /* for debugging */
+.section1 p {
+	margin-right: 80px;
+	font-size: 18px;
 }
-.section1-card {
-	outline: 1px solid black; /* for debugging */
-	height: 100%;
-	background-color: rgba(0, 100, 0, 0.1); /* for debugging */
+.section1-sub1,
+.section1-sub2 {
+	flex: 1;
+}
+.section1-sub2 {
+	display: flex;
+	background-color: #6d747d;
 }
 .section1-text {
-	text-align: center;
-	background-color: rgba(0, 100, 0, 0.1); /* for debugging */
+	margin: auto;
+}
+
+.section1 button {
+	margin-top: 16px;
+	padding: 8px 24px;
+	border-radius: 8px;
+	border: none;
+	background-color: #3882f6;
+	color: #f9faf8;
+	font-weight: bold;
 }
