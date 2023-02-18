@@ -86,3 +86,19 @@ footer {
 	color: #f9faf8;
 	font-weight: bold;
 }
+
+.section2 {
+	outline: 1px solid black; /* for debugging */
+}
+.section2 h2 {
+	outline: 1px solid black; /* for debugging */
+	text-align: center;
+	margin: 24px 24px;
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: 900;
+}
+
+.section2-container {
+	display: flex;
+}
