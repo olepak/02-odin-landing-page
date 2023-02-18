@@ -88,17 +88,35 @@ footer {
 }
 
 .section2 {
-	outline: 1px solid black; /* for debugging */
+	flex: 1;
+	padding: 0 196px;
+	margin: 32px 0;
 }
+
 .section2 h2 {
-	outline: 1px solid black; /* for debugging */
 	text-align: center;
-	margin: 24px 24px;
 	font-size: 36px;
 	color: #1f2937;
 	font-weight: 900;
+	margin-bottom: 24px;
 }
 
 .section2-container {
 	display: flex;
+}
+
+.card {
+	padding: 0 40px;
+}
+.card div:nth-child(2) {
+	color: #6d747d;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.placeholder2 {
+	margin: auto;
+	aspect-ratio: 1 / 1;
+	border: #3882f6 solid 2px;
+	border-radius: 12px;
 }
