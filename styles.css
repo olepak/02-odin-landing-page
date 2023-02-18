@@ -52,6 +52,9 @@ main > div {
 }
 footer {
 	outline: 1px solid black; /* for debugging */
+	background-color: #1f2937;
+	color: #e5e7eb;
+	text-align: center;
 }
 .section1 {
 	background-color: #1f2937;
@@ -132,4 +135,28 @@ footer {
 
 .quote p:nth-child(2) {
 	text-align: right;
+}
+
+.bottom-section {
+	margin: 8px 144px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #3882f6;
+	color: white;
+	border-radius: 6px;
+}
+
+.bottom-section-container p:first-child {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.bottom-section button {
+	padding: 8px 24px;
+	border: #f9faf8 solid 2px;
+	border-radius: 8px;
+	background-color: #3882f6;
+	color: #f9faf8;
+	font-weight: bold;
 }
