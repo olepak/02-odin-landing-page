@@ -6,10 +6,7 @@
 }
 
 body {
-	height: 100vh;
-	display: flex;
-	padding: 16px 192px;
-	flex-direction: column;
+	padding: 0 192px;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -35,24 +32,15 @@ a {
 	font-size: 18px;
 }
 
-main {
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-}
-
 h1 {
 	font-size: 48px;
 	font-weight: 700;
 	color: #f9faf8;
 }
 
-main > div {
-	flex: 1;
-}
 footer {
-	outline: 1px solid black; /* for debugging */
 	background-color: #1f2937;
+	padding: 32px 0;
 	color: #e5e7eb;
 	text-align: center;
 }
@@ -124,10 +112,11 @@ footer {
 
 .quote {
 	background-color: #e5e7eb; /* for debugging */
-	padding: 16px 384px;
+	padding: 64px 245px;
 }
+
 .quote p:first-child {
-	font-size: 24px;
+	font-size: 36px;
 	color: #1f2937;
 	font-style: italic;
 	font-weight: 300;
@@ -135,10 +124,12 @@ footer {
 
 .quote p:nth-child(2) {
 	text-align: right;
+	font-weight: 700;
 }
 
 .bottom-section {
-	margin: 8px 144px;
+	margin: 64px 144px;
+	padding: 32px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
